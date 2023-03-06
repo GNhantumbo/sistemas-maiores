@@ -1,0 +1,46 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#interface h1 {
+    text-align: center;
+}
+
+section#foto img {
+    width: 400px;
+    float: left;
+    position: fixed;
+}
+
+aside#especificacoes {
+    width: 800px;
+    display: block;
+    float: right;
+}
+
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+}
+
+table#tabelaspec td {
+    border: 1px solid #606060;
+    padding: 5px;
+}
+
+table#tabelaspec td.ce {
+    background-color: #fa4343;
+}
+
+footer#rodape {
+    clear: both;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 10px;
+}
+
+table#tabelaspec caption {
+    color: #606060;
+    font-size: 20px;
+    font-weight: bolder;
+}
